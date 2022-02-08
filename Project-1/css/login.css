@@ -1,0 +1,32 @@
+.input{
+    margin-bottom: 5vh;
+    width: 80vw;
+    font-size: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+
+}
+.input input{
+    height: 5vh;
+    width: 20vw;
+    font-size: 1.6vw;
+    font-family: 'Cuprum', sans-serif;
+    padding-left: 1vh;
+}
+.submit{
+    height: 5vh;
+    margin-top: 4vh;
+    width: 8vw;
+    font-size: 1.5vw;
+    font-family: 'Cuprum', sans-serif;
+    background-color: white;
+    border: none;
+    transition: all 0.5s ease-out;
+}
+.submit:hover{
+    height: 5.6vh;
+    width: 8.4vw;
+    font-size: 1.6vw;
+}

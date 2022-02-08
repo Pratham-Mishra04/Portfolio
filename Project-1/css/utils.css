@@ -1,0 +1,89 @@
+.container{
+    width: 80vw;
+    height: 80vh;
+    background-color:rgba(10, 0, 72, 0.2);
+    margin: auto;
+    display: flex;
+    align-items:center;
+    justify-content:center; 
+    border: 10px black solid;
+    min-height: 80px;
+    color: white;
+    border-style: dotted;
+    flex-direction: column;
+}
+
+.box-container{
+    width: 50vw;
+    height: 30vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.5s ease-out;
+}
+.bc-text{
+    font-family: 'Cuprum', sans-serif;
+    font-size: 12vw;
+    transition: all 0.5s ease-out;
+    transform: skew(0deg);
+}
+.box-container:hover{
+    width: 52vw;
+    height: 32vh;
+    box-shadow: 10px 10px;
+}
+.bc-text:hover{
+    font-size: 12.8vw;
+}
+.navbar-body{
+    margin-top: 4vh;
+    margin-bottom: 18vh;
+}
+.button{
+    margin-top: 5vh;
+    width: 8vw;
+    height: 8vh;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    transition: all 0.5s ease-out;
+    font-family: 'Cuprum', sans-serif;
+}
+.button:hover{
+    width: 8.4vw;
+    height: 8.4vh;
+    box-shadow: 6px 6px;
+}
+@media (max-width:800px){
+    .button{
+        min-width: 200px
+    }
+    .box-container{
+        min-width: 200px;
+        max-height:10vh;
+    }
+    .bc-bottom{
+        min-width: 200px;
+    }
+}
+.bc-bottom{
+    width: 32vw;
+    height: 0vh;
+    background-color: white;
+    transform-origin: top;
+    transition: all 0.5s ease-out ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bc-bottomtext{
+font-size: 0px;
+color: rgb(0, 0, 0);
+transition: all 0.5s ease-out ;
+word-spacing: 0.5vw;
+font-family: 'Cuprum', sans-serif;
+}

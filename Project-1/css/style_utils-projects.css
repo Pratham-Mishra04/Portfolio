@@ -1,0 +1,214 @@
+.main{
+    width: 98.9vw;
+    height:320vh;
+    background-size: cover;
+}
+.container{
+    margin-top: 5vh;
+    height: 120vh;
+    gap: 2vh;
+    margin-bottom: 10vh;
+}
+.navbar {
+    position: fixed;
+    background-color: rgb(15, 0, 27);
+}
+.box-container{
+    background-color: rgb(32, 0, 54,0.8);
+    margin-bottom: 5vh;
+}
+.topprojects{
+    height: 15vw;
+    width: 15vw;
+    background-color: rgb(32, 0, 54,0.8);
+}
+.topprojects:hover{
+    width: 16vw;
+    height: 16vw;
+}
+.tp_container{
+    width: 50vw;
+    display: grid;
+    grid-template-rows: 15vw 15vw;
+    grid-template-columns: 15vw 15vw;
+    row-gap: 5vh;
+    column-gap: 2vw;
+    justify-content: center;
+}
+#item1{
+    transform-origin: bottom;
+}
+#item1:hover{
+    transform: rotate(-2deg);
+    box-shadow: -10px -10px;
+}
+
+#item2{
+    transform-origin: top right;
+}
+#item2:hover{
+    transform: rotate(2deg);
+    box-shadow: 10px -10px;
+}
+
+#item3{
+    transform-origin: bottom left;
+}
+#item3:hover{
+    transform: rotate(-2deg);
+    box-shadow: -10px 10px;
+}
+
+#item4{
+    transform-origin: bottom right;
+}
+#item4:hover{
+    transform: rotate(2deg);
+    box-shadow: 10px 10px;
+}
+.bc-text{
+    font-size: 6.2vw;
+}
+.bc-text:hover{
+    font-size: 6.7vw;
+}
+.tp-ref{
+    width: 15vw;
+    height: 4vw;
+    color: white;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    font-size: 5vh;
+    font-family: 'Roboto', sans-serif;
+
+}
+.box-container a{
+    color: white;
+    text-decoration: none;
+}
+.bc-text{
+    font-family: 'Roboto', sans-serif;
+}
+.projectlist{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5vh;
+    height: 180vh;  
+    padding-bottom: 8vh;
+}
+.projectcontain_head{
+    width: 80vw;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 12vh;
+    column-gap: 10vh;
+    
+}
+.title{
+    font-size: 10vh;
+}
+.bc-projtitle{
+    margin-left: 10vh;
+    height: 20vh;
+}
+.bc-projtitle:hover{
+    height: 22vh;
+}
+.bc-projecttitle{
+    font-size: 6vh;
+    transition: all 0.5s ease-out;
+    font-family: 'Roboto', sans-serif;
+}
+.bc-projecttitle:hover{
+    font-size: 6.4vh;
+}
+.searchbox{
+    margin-top: 6vh;
+    width: 12vw;
+    height: 5vh;
+    color: white;
+    background-color: rgb(13, 0, 31);
+    margin-right:5vh ;
+    transition: all 0.5s ease-out;
+}
+.projectcontain_body{
+    width: 80vw;
+    height: 1200vh;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    row-gap: 10vh;
+    column-gap: 5vh;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    display: inline-block;
+    margin: 2vh;
+    width: 20vw;
+    height: 25vw;
+    background-color: rgb(51, 0, 83);
+    transition: all 0.5s ease-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+}
+.card:hover{
+    width: 20.5vw;
+    height: 25.5vw;
+    box-shadow: 6px 6px;
+}
+.card-pic{
+    width: 18vw;
+    height: 20vh;
+    background-image: url("TODOs-thmb.png");
+    background-size: contain;
+}
+#card1{
+    background-image: url("TODOs-thmb.png");
+}
+#card2{
+    background-image: url("TODOs-thmb.png");
+}
+#card3{
+    background-image: url("TODOs-thmb.png");
+}
+#card4{
+    background-image: url("TODOs-thmb.png");
+}
+#card5{
+    background-image: url("TODOs-thmb.png");
+}
+#card6{
+    background-image: url("TODOs-thmb.png");
+}
+.card-header{
+    width: 18vw;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: large;
+}
+.card-body{
+    width: 18vw;
+    color: rgb(255, 255, 255);
+}
+#myInput {
+    color: white;
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%; 
+    font-size: 16px; 
+    padding: 12px 20px 12px 40px; 
+    border: 1px solid rgb(255, 255, 255); 
+    margin-bottom: 12px;
+  }
+  .searchbox:hover{
+    box-shadow: 20px 0px white;
+  }

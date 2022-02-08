@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cuprum:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MiniProject-10</title>
+    <link rel="stylesheet" href="ToDos2.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <a class="navbar-brand" style="color: white">TODOs</a>
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="signin2.html">Log In</a></li>
+        <li><a href="items.html">Items</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="header">
+        <h3 id="heading">TODOs</h3>
+        <h4>A <strong>Frontend Only</strong> Project.</h4>
+      </div>
+      <form action=" ">
+        <label for="title">Title:</label><br />
+        <input
+          type="text"
+          name=""
+          id="title"
+          class="form-control intext"
+        /><br />
+        <p></p>
+        <label for="description">Description:</label><br />
+        <textarea
+          name=""
+          id="description"
+          cols="30"
+          rows="2"
+          class="form-control intext"
+        ></textarea
+        ><br />
+        <input
+          class="btn btn-primary btn-lg"
+          id="add"
+          type="submit"
+          role="button"
+          value="Add to List"
+        />
+        <h2 class="text-muted">Items will be added to your Items Tab!</h2>
+      </form>
+    </div>
+
+    <script src="ToDos2.js"></script>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+.main-body{
+    height: 100vh;
+    width: 100vw;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("vecteezy_Colorful-Abstract-background_RD0221-05-01_generated.jpg");
+}
+.box-body{
+    height: 80vh;
+    width: 80vw;
+    background-color: rgb(192, 167, 167);
+    box-shadow: 0 18px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), url("vecteezy_Colorful-Abstract-background_RD0221-05-01_generated.jpg");
+}
+.aboutnav{
+    height: 7.5vh;
+    width: 78.2vw;
+    background-color: black;
+}
+.content{
+    display: flex;
+    height: 72.5vh;
+    width: 80vw;
+    gap: 10vh;
+    align-items: center ;
+    justify-content: center ;
+}
+.image{
+    display: flex;
+    height: 72.5vh;
+    width: 20vw;
+    justify-content: center;
+    align-items: center;    
+}
+img{
+    height: 35vh;
+    width: 35vh;
+    transition: all 0.5s ease-out;
+    border-radius: 100%;
+}
+img:hover{
+    height: 37vh;
+    width: 37vh;
+    border-radius: 100%;
+    box-shadow: 6px 6px white; 
+}
+.para{
+    display: flex;
+    height: 52.5vh;
+    width: 45vw;
+    gap: 5vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 1.5vw;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Cuprum', sans-serif;  
+    transition: all 0.5s ease-out;
+}
+.para:hover{
+    height: 54vh;
+    width: 46vw;
+    box-shadow: 12px 12px white; 
+    font-size: 1.6vw;
+}
+strong{
+    font-size: 4.5vw;
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+}
+.aboutnav{
+    display: flex;
+    align-items: center;
+    font-size: 1.2vw;
+    gap: 5vh;
+   padding-left: 2vw;
+   font-family: 'Cuprum', sans-serif;
+}
+.aboutnav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2vw;
+    transition: all 0.5s ease-out;
+}
+.nav-title{
+    text-decoration: none;
+    font-size: 12vw;
+    margin-right: 5vh;
+}
+.underline{
+    height: 0.5vh;
+    width: 0vw;
+    background-color: white;
+    transition: all 0.5s ease-out;
+}
+.linkcontain{
+    width: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4vh;
+}
+.aboutnav a:hover{
+    font-size: 1.4vw;
+}

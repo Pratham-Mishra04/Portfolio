@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 6vh;
+    background-color: black;
+    min-height: 20px;
+    width: 100vw;
+    color: white;
+}
+.navbar-body{
+    height: 6vh;
+    display: flex;
+    width: 40vw;
+    justify-content: space-around;  
+    align-items: center;
+    margin: 0;
+    font-family: 'Cuprum', sans-serif;
+    
+}
+.navbar-body div{
+    color: white;
+}
+.navbar-body div a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url("vecteezy_memphis-geometric-background-with-abstract-shapes-graphic_.jpg");
+    background-size: 100vw 100vh;
+
+}
+.foot{
+    height: 5vh;
+    background-color: black;
+}
+@media (max-width:800px){
+    .navbar-body{
+        flex-direction: column;
+        gap: 1vh;
+        align-items: center;
+    }
+}
+.navbar-body a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2vw;
+    transition: all 0.5s ease-out;
+}
+.nav-title{
+    text-decoration: none;
+    font-size: 12vw;
+    margin-right: 5vh;
+}
+.underline{
+    height: 0.5vh;
+    width: 0vw;
+    background-color: white;
+    transition: all 0.5s ease-out;
+}
+.linkcontain{
+    width: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4vh;
+}
+.navbar-body a:hover{
+    font-size: 1.4vw;
+}
