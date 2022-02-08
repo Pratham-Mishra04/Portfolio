@@ -1,6 +1,6 @@
 .input{
     margin-bottom: 5vh;
-    width: 80vw;
+    width: 45vw;
     font-size: 5vh;
     display: flex;
     align-items: center;
@@ -29,4 +29,7 @@
     height: 5.6vh;
     width: 8.4vw;
     font-size: 1.6vw;
+}
+form{
+    width: 45vw;
 }
