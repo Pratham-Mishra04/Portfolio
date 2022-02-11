@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cuprum:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+  <body>
+      <div class="half1">
+        <div class="heading">
+            Welcome to<br><strong>My Calculator!</strong><br>
+            <div>A Simple Responsive FrontEnd Project.</div>
+        </div>
+      </div>
+    <div class="half2">
+        <div class="calculator">
+            <div class="display">Welcome!</div>
+            <div class="opt">
+              <div class="clear">
+                  <div type="button" class="button clc" onclick="calculate(18)" style="font-size: 15px;">Clear All</div>
+                  <div type="button" class="button clc" onclick="calculate(17)">Clear</div>
+                  <div type="button" class="button clc" onclick="calculate(16)" style="font-size: 40px;">&#8592</div>
+              </div>
+              <div type="button" class="button" onclick="calculate(7)">7</div>
+              <div type="button" class="button" onclick="calculate(8)">8</div>
+              <div type="button" class="button" onclick="calculate(9)">9</div>
+              <div type="button" class="button calc" onclick="calculate(14)" style="font-size: 40px;">&#247</div>
+              <div type="button" class="button" onclick="calculate(4)">4</div>
+              <div type="button" class="button" onclick="calculate(5)">5</div>
+              <div type="button" class="button" onclick="calculate(6)">6</div>
+              <div type="button" class="button calc" onclick="calculate(13)" style="font-size: 40px;">&#215</div>
+              <div type="button" class="button" onclick="calculate(3)">3</div>
+              <div type="button" class="button" onclick="calculate(2)">2</div>
+              <div type="button" class="button" onclick="calculate(1)">1</div>
+              <div type="button" class="button calc" onclick="calculate(12)">-</div>
+              <div type="button" class="button" onclick="calculate(0)">0</div>
+              <div type="button" class="button calc" onclick="calculate(15)">.</div>
+              <div type="button" class="button calc" onclick="calculate(10)">=</div>
+              <div type="button" class="button calc" onclick="calculate(11)">+</div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="calculator.js"></script>
+  </body>
+</html>

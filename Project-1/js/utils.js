@@ -7,7 +7,7 @@ document.querySelector(".bc-text").addEventListener("mouseout",()=>{
 })
 
 document.querySelector(".bc-text").addEventListener("mouseover",()=>{
-    document.querySelector(".bc-bottomtext").setAttribute("style","font-size:20px;")
+    document.querySelector(".bc-bottomtext").setAttribute("style","font-size:15px;")
 })
 
 document.querySelector(".bc-text").addEventListener("mouseout",()=>{

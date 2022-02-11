@@ -58,18 +58,6 @@
     height: 8.4vh;
     box-shadow: 6px 6px;
 }
-@media (max-width:800px){
-    .button{
-        min-width: 200px
-    }
-    .box-container{
-        min-width: 200px;
-        max-height:10vh;
-    }
-    .bc-bottom{
-        min-width: 200px;
-    }
-}
 .bc-bottom{
     width: 32vw;
     height: 0vh;

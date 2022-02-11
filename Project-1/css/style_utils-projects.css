@@ -1,5 +1,5 @@
 .main{
-    width: 98.9vw;
+    width: 99.65vw;
     height:320vh;
     background-size: cover;
 }
@@ -147,7 +147,6 @@
     justify-content: center;
 }
 .card{
-    display: inline-block;
     margin: 2vh;
     width: 20vw;
     height: 25vw;
@@ -157,8 +156,9 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    justify-content: space-around;
     font-family: 'Roboto', sans-serif;
+    gap:4vh;
+    padding-top: 2vh;
 }
 .card:hover{
     width: 20.5vw;
@@ -169,7 +169,7 @@
     width: 18vw;
     height: 20vh;
     background-image: url("TODOs-thmb.png");
-    background-size: contain;
+    background-size:cover;
 }
 #card1{
     background-image: url("TODOs-thmb.png");
@@ -184,19 +184,22 @@
     background-image: url("TODOs-thmb.png");
 }
 #card5{
-    background-image: url("TODOs-thmb.png");
+    background-image: url("Calculator-thmb.png");
 }
 #card6{
     background-image: url("TODOs-thmb.png");
 }
 .card-header{
     width: 18vw;
+    height: 2vh;
     color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: large;
 }
 .card-body{
     width: 18vw;
+    height: 10vh;
+    font-size: 11px;
     color: rgb(255, 255, 255);
 }
 #myInput {
@@ -211,4 +214,20 @@
   }
   .searchbox:hover{
     box-shadow: 20px 0px white;
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #000129;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 255, 255);
   }

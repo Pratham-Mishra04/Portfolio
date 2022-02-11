@@ -107,3 +107,38 @@ strong{
 .aboutnav a:hover{
     font-size: 1.4vw;
 }
+@media (max-width:600px) {
+    .content{
+        flex-direction: column;
+        gap: 1.5vh;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    img:hover{
+        width: 160px;
+        height: 160px;
+    }
+    .aboutnav{
+        height: 2.5vh;
+    }
+    .para{
+        width: 60vw;
+        gap: 2vh;
+        font-size: 12px;
+        padding: 1vh;
+    }
+    .para:hover{
+        width: 61vw;
+        height: 40vh;
+        box-shadow: 6px 6px white; 
+        font-size: 12.5px;
+    }
+    .image{
+        margin-top: 5vh;
+    }
+    .aboutnav a{
+        font-size: 7px;
+    }
+}

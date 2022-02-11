@@ -1,0 +1,241 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    font-weight:normal;
+    margin: 0px;
+    background-color: bisque;
+    color: rgb(61, 61, 61);
+}
+strong{
+    font-size: 100px;
+}
+.half1{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(231, 244, 255);
+    transition: all 0.5s ease-out;
+}
+.half2{
+    display: flex;
+    width: 50vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    transition: all 0.5s ease-out;
+    border-left: 10px solid rgb(36, 36, 36);
+}
+.heading div{
+    font-size: 25px;
+    text-decoration: underline;
+}
+.calculator{    
+    width: 25vw;
+    height: 70vh;
+    background-color: antiquewhite; 
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid rgb(37, 37, 37);
+}
+.display{
+    font-family: 'Cuprum', sans-serif;
+    width: 20vw;
+    height: 8vh;
+    background-color: bisque;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+    padding-right: 2vh;
+    font-size: 35px;
+    color: rgb(255, 249, 241);
+    border: 2px solid rgb(51, 51, 51);
+}
+.opt{
+    width: 20vw;
+    height: 50vh;
+    background-color: rgb(247, 215, 174);
+    display: grid;
+    border-radius: 7.5%;
+    grid-template-rows: 10vh 10vh 10vh 10vh 10vh;
+    grid-template-columns: 5vw 5vw 5vw 5vw;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+.button{
+    font-family: 'Cuprum', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4vw;
+    height: 8vh;
+    background-color: rgb(255, 210, 143);
+    border-radius: 25%; 
+    justify-self: center;
+    font-size: 30px;
+    color: antiquewhite;
+    transition: all 0.5s ease-out;
+    border: 2px solid black;
+}
+.clear{
+    grid-column-end: span 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.clc{
+    width: 5.4vw;
+    font-size: 20px;
+    background-color:sandybrown
+}
+.calc{
+    background-color:sandybrown
+}
+.button:hover{
+    box-shadow: 2px 2px rgb(255, 231, 200);
+    width: 4.1vw;
+    height: 8.2vh;
+}
+.clc:hover{
+    width: 5.6vw;
+}
+.half1:hover{
+    width: 75vw;
+}
+.half2:hover{
+    width: 75vw;
+}
+@media only screen and (max-width: 600px){
+    body{
+        height: 150vh;
+        width: 97.8vw;
+        flex-direction: column;
+    }   
+    .half1{
+        width: 100vw;
+        height: 50vh;
+    }
+    .half2{
+        width: 100vw;
+        height: 80vh;
+        border-left:0;
+        border-top: 10px solid rgb(36, 36, 36);
+    }
+    .half1:hover{
+        height: 75vh;
+        width: 100vw;
+    }
+    .half2:hover{
+        height: 100vh;
+        width: 100vw;
+    }
+    strong{
+        font-size: 60px;
+    }
+    .calculator{    
+        width: 75vw;
+        height: 70vh;   
+    }
+    .display{
+        width: 60vw;
+    }
+    .opt{
+        width: 60vw;
+        height: 50vh;
+        grid-template-rows: 10vh 10vh 10vh 10vh 10vh;
+        grid-template-columns: 15vw 15vw 15vw 15vw;
+    }
+    .button{
+        width: 12vw;
+    }
+    .clc{
+        width: 16.4vw;
+    }
+    .button:hover{
+        width: 12.5vw;
+        height: 8.2vh;
+    }
+    .clc:hover{
+        width: 17vw;
+    } 
+}
+@media (max-width: 1020px) and (min-width:600px){
+    body{
+        height: 150vh;
+        width: 98vw;
+        flex-direction: column;
+    }   
+    .half1{
+        width: 100vw;
+        height: 50vh;
+    }
+    .half2{
+        width: 100vw;
+        height: 80vh;
+        border-left:0;
+        border-top: 10px solid rgb(36, 36, 36);
+    }
+    .half1:hover{
+        height: 75vh;
+        width: 100vw;
+    }
+    .half2:hover{
+        height: 100vh;
+        width: 100vw;
+    }
+    strong{
+        font-size: 80px;
+    }
+    .calculator{    
+        width: 50vw;
+        height: 70vh;   
+    }
+    .display{
+        width: 40vw;
+    }
+    .opt{
+        width: 45vw;
+        height: 50vh;
+        grid-template-rows: 10vh 10vh 10vh 10vh 10vh;
+        grid-template-columns: 10vw 10vw 10vw 10vw;
+    }
+    .button{
+        width: 9vw;
+    }
+    .clc{
+        width: 12vw;
+    }
+    .button:hover{
+        width: 9.5vw;
+        height: 8.2vh;
+    }
+    .clc:hover{
+        width: 12.5vw;
+    } 
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #2b2b2b;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #f8e4c9;
+  }
+  
