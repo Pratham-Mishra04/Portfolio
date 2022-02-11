@@ -1,1 +1,1 @@
-Go to Project-1 and then to index.html to open the landing page.
+Go to Portfolio and then to index.html to open the landing page.
