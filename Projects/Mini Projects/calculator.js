@@ -1,5 +1,26 @@
 input1="";
 arr=[];
+
+document.addEventListener("keypress",function(event){
+    press=event.key;
+    if(press=="1")calculate(1);
+    else if(press=="2")calculate(2);
+    else if(press=="3")calculate(3);
+    else if(press=="4")calculate(4);
+    else if(press=="5")calculate(5);
+    else if(press=="6")calculate(6);
+    else if(press=="7")calculate(7);
+    else if(press=="8")calculate(8);
+    else if(press=="9")calculate(9);
+    else if(press=="0")calculate(0);
+    else if(press=="Enter")calculate(10);
+    else if(press=="+")calculate(11);
+    else if(press=="-")calculate(12);
+    else if(press=="*")calculate(13);
+    else if(press=="/")calculate(14);
+    else if(press==".")calculate(15);
+})
+
 function calculate(value){
     elem=document.querySelector(".display");
     if (value<10){
@@ -20,7 +41,7 @@ function calculate(value){
     else if(value==18){
         arr=[];
         input1="";
-        elem.innerText=input1; 
+        elem.innerText="Welcome!"; 
     }
     else{
         arr.push(parseFloat(input1))
